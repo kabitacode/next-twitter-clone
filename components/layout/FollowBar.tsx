@@ -1,8 +1,6 @@
-import { useRouter } from "next/router";
 import { FaFeather } from "react-icons/fa";
 
 const FollowBar = () => {
-    const router = useRouter()
 
     return (
         <div className="px-6 py-4 hidden lg:block">
